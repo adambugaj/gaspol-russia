@@ -18,6 +18,7 @@
 
       <!-- Bootstrap CSS -->
       <link rel='stylesheet' href='css/bootstrap.min.css'>
+      <link rel="stylesheet" href="./css/cookiealert.css">
       <link rel='stylesheet' href='css/line-icons.css'>
       <link rel='stylesheet' href='css/animate.css'>
       <link rel='stylesheet' href='css/responsive.css'>
@@ -71,7 +72,7 @@
               <div id="main-form" class="right-form">
                   <div id="form-blend" class="blend"></div>
                   <div id="form-helper" style="display: block;">
-                      <h4 class=""><span>Позвоните нам: </span><br> <a href="tel:606800400">+48 502 283 847</a>
+                      <h4 class=""><span>Позвоните нам: </span><br> <a href="tel:502283847">+48 502 283 847</a>
                         <span>или</span>
                       </h4>
                       <h1>Заполните форму</h1>
@@ -362,8 +363,8 @@
             <div class="container">
               <div class="row fot-copy">
                 <div class="col-md-12 ">
-                  <div class="site-info float-left">
-                    <p>&copy; <a target="_blank" href="https://www.gaspol.pl/eng/for-business">Gaspol</a></p>
+                  <div class="site-info float-left copyright-edit">
+                    <p>&copy; 2016 Gaspol. Все права защищены. <a target="_blank" href="https://www.gaspol.pl/polityka-prywatnosci">Политика конфиденциальности</a></p>
                   </div>
                   <div class="float-right">
                     <ul class="footer-social">
@@ -380,6 +381,17 @@
 
       </footer>
       <!-- Footer Section End -->
+
+      <!-- START Bootstrap-Cookie-Alert -->
+      <div class="alert text-center cookiealert" role="alert">
+          Этот сайт использует файлы cookies. Более подробную информацию об используемых нами файлах cookie, целях их использования и способах определения условий их хранения можно найти <a href="https://www.gaspol.pl/polityka-prywatnosci" target="_blank">здесь.</a>
+          Продолжая просматривать сайт, Вы даете свое согласие на использование файлов
+          cookie в соответствии с текущими настройками веб-обозревателя. Я понимаю
+          <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+              закрыть
+          </button>
+      </div>
+      <!-- END Bootstrap-Cookie-Alert -->
 
       <!-- Go To Top Link -->
       <a href="#" class="back-to-top">
@@ -417,6 +429,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="./scripts/jquery.cookie.js"></script>
     <script type="text/javascript" src="./scripts/script.js"></script>
+    <script src="./js/cookiealert.js"></script>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery-min.js"></script>
